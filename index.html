@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef's Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trispace&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6f6e8e1141.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar section -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand mb-0 h1" href="#"><img src="/Photos/Logo.jpg" alt="logo" width="100" height="100" style="border-radius: 50%;"/>
+                Chef's Table</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.foodpanda.com.bd/">FoodPanda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://pathao.com/food/">PathaoFood</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://hungrynaki.com/">HungryNaki</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Image Slider -->
+
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="8000">
+                <div class="overlay-image" style="background-image: url(./Photos/image-slide1.jpg);"></div>
+                <div class="container caption">
+                    <h1>Take a bite out of hunger</h1>
+                    <p>
+                        Hungry for some food? What are you waiting for? Try our Chef's Recipe right now!
+                    </p>
+                    <a href="#" class="btn btn-lg btn-success">Order Now!</a>
+                </div>
+
+            </div>
+            <div class="carousel-item" data-interval="8000">
+                <div class="overlay-image" style="background-image: url(./Photos/image-slide2.jpg);"></div>
+                <div class="container caption">
+                    <h1>Take a bite out of hunger</h1>
+                    <p>
+                        Hungry for some food? What are you waiting for? Try our Chef's Recipe right now!
+                    </p>
+                    <a href="#" class="btn btn-lg btn-success">Order Now!</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="8000">
+                <div class="overlay-image" style="background-image: url(./Photos/image-slide3.jpg);"></div>
+                <div class="container caption">
+                    <h1>Take a bite out of hunger</h1>
+                    <p>
+                        Hungry for some food? What are you waiting for? Try our Chef's Recipe right now!
+                    </p>
+                    <a href="#" class="btn btn-lg btn-success">Order Now!</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="8000">
+                <div class="overlay-image" style="background-image: url(./Photos/image-slide4.jpg);"></div>
+                <div class="container caption">
+                    <h1>Take a bite out of hunger</h1>
+                    <p>
+                        Hungry for some food? What are you waiting for? Try our Chef's Recipe right now!
+                    </p>
+                    <a href="#" class="btn btn-lg btn-success">Order Now!</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Cards section -->
+
+    <div class="container mt-5">
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="/Photos/card1.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Burger</h5>
+                        <p class="card-text">A slice of cheese is melted over the patty. The patty itself is often
+                            seasoned or augmented with chopped onions, spices, or bread crumbs before cooking. A
+                            cheeseburger with various garnishes, including lettuce, onion, and tomato.</p>
+                        <a href="#" class="btn btn-lg btn-success buttons">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="/Photos/card2.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Pepperoni Pizza</h5>
+                        <p class="card-text">Pepperoni pizza is an American pizza variety which includes one of the
+                            country's most beloved toppings. Peperoni which denotes a large pepper in Italian, but
+                            nowadays it denotes a spicy salami,
+                            usually made with a mixture of beef, pork, and spices.</p>
+                        <a href="#" class="btn btn-lg btn-success buttons">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="/Photos/card3.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Sandwich</h5>
+                        <p class="card-text">simple & basic sandwich made by placing cheese in between 2 buttered slices
+                            of bread. These sandwiches are either grilled or toasted until the cheese melts. There are
+                            so many varieties of grilled cheese made across the world with varying ingredients.</p>
+                        <a href="#" class="btn btn-lg btn-success buttons">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="/Photos/card4.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">French Fries</h5>
+                        <p class="card-text">These are deep-fried, very thin, salted slices of potato that are usually
+                            served at room temperature. French fries have numerous variants, from thick-cut to
+                            shoestring, crinkle, curly and many other names.</p>
+                        <a href="#" class="btn btn-lg btn-success buttons">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="/Photos/card5.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Italian Pizza</h5>
+                        <p class="card-text">One of the key misconceptions about Italian pizza is that it is served like
+                            a thick cake. The crust is one of the most important components of
+                            the meal and is traditionally thin but has a fluffy consistency.</p>
+                        <a href="#" class="btn btn-lg btn-success buttons">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="/Photos/card6.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Tacos</h5>
+                        <p class="card-text">It is made from a corn tortilla wrapped around some sort of filling.
+                            Traditionally, the tortilla is soft, but some variations from different countries have hard
+                            shells, as well as flour tortillas.</p>
+                        <a href="#" class="btn btn-lg btn-success buttons">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- Footer -->
+
+
+    <div class="mt-4">
+
+        <footer class="text-center" style="background-color: #f1f1f1;">
+
+            <div class="container pt-4">
+
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <h5>Order food from the best restaurants and shops with Chef's Table</h5>
+                    <p>Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza
+                        delivered to your office or looking to avoid the weekly shop? Then Chef's Table is
+                        the right destination for you! Chef's Table offers you the best
+                        restaurants near you to help make your everyday easier.</p>
+
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="https://www.facebook.com/chefstablebd/" role="button" data-mdb-ripple-color="dark"><i
+                            class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="https://twitter.com/table_of_chefs?lang=en" role="button" data-mdb-ripple-color="dark"><i
+                            class="fab fa-twitter"></i></a>
+
+
+                    <!-- Instagram -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="https://www.instagram.com/chefstablenetflix/?hl=en" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright: Chef's Table
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
